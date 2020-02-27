@@ -18,7 +18,7 @@ Coded by by <a href="https://instagram.com/iqbalmh18">Iqbalmh18</a>
 </p>
 
 <p align="center">
-  <img src="images/banner.jpg" width="350" title="banner" alt="banner">
+  <img src="images/banner.jpg" width="640" title="banner" alt="banner">
 </p>
 
 <p align="center">
