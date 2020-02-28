@@ -57,7 +57,7 @@ echo ""
 echo "[*] Preparing for installing python requirements ..."
 echo "    requests, bs4, pyfiglet, urllib"
 echo ""
-pip install requests bs4 pyfiglet urllib;pip2 install requests bs4;pip install --upgrade pip
+pip install requests bs4 pyfiglet urllib;pip2 install requests bs4;pip install --upgrade pip;pip install requests
 echo ""
 echo "[*] All dependencies have been installed"
 echo "[*] configure console calls"
