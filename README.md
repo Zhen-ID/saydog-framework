@@ -2,7 +2,7 @@
 SAYDOG FRAMEWORK
 </H1>
 <H4 align="center">
-just a tool for exploiting social media, website hacking, also has a wordlist generator, malware generator and others
+Just a tool for exploiting social media, website penetration testing, also has a wordlist generator, malware generator and others
 </H4>
 <p align="center">
 <a href="https://github.com/saydog"><img alt="Version" src="https://img.shields.io/badge/Version-1.2-brightgreen"/></a>
@@ -110,5 +110,5 @@ Or  :
 
 ## Disclaimer
 
-This is an open source for everyone, you may redistribute, modify, use patents and use privately without any obligation to redistribute. but it should be noted to include the source code of the library that was modified (not the source code of the entire program), include the license, include the original copyright of the author (warifp), and include any changes made (if modified). Users do not have the right to sue the creator when there is damage to the software or even demand if there is a problem caused by the makers of this tool. because every risk is caused by the user risk it self.
+This is an open source for everyone, you may redistribute, modify, use patents and use privately without any obligation to redistribute. but it should be noted to include the source code of the library that was modified (not the source code of the entire program), include the license, include the original copyright of the author (iqbalmh18), and include any changes made (if modified). Users do not have the right to sue the creator when there is damage to the software or even demand if there is a problem caused by the makers of this tool. because every risk is caused by the user risk it self.
 Hatur nuhun 😊
