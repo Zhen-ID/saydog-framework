@@ -63,7 +63,7 @@ echo "[*] All dependencies have been installed"
 echo "[*] configure console calls"
 echo "    Please wait"
 echo ""
-chmod +x run saydog;mv saydog /data/data/com.termux/files/usr/bin;rm install.sh
+chmod +x run saydog;mv saydog /data/data/com.termux/files/usr/bin;rm install
 echo "[*] Saydog framework have been installed !"
 echo "    thankyou for installing saydog framework version 1.2"
 echo "    if u have any question, and if u find the bug in this tool"
