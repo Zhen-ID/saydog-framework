@@ -31,7 +31,7 @@ spin(){
   do
     for i in ${spinner[@]};
     do
-      echo -ne "\r[ $i ] saydog framework version 1.2";
+      echo -ne "\r[ $i ] saydog framework version 1.2 \n";
       sleep 0.1;
     done;
   done
