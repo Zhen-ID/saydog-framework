@@ -465,7 +465,7 @@ def webtoolkit():
 				exit()
 			elif wt == 'clear':
 				os.system('clear')
-			elif 'use exploit/adminfinder ' in wt:
+			elif 'use exploit/adminfinder' in wt:
 				print('exploit > adminfinder')
 				os.system('cd exploit;cd webtoolkit;php adminfinder.php')
 			elif 'use exploit/traceroute' in wt:
