@@ -38,7 +38,8 @@ spin(){
 }
 
 count
-echo "\n[*] Preparing for installing perl ..."
+echo "\n"
+echo "[*] Preparing for installing perl ..."
 echo "    If u find (y/n) please choose Y or yes"
 echo "    If u find What approach do you want? local::lib, please type 'manual' and enter"
 echo ""
