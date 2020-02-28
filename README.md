@@ -93,6 +93,7 @@ Version 1.2 :
 ## Installation
 Termux :
 
+    $ pkg intsall php;pkg install python;pkg install git
     $ git clone https://github.com/saydog/Saydog-framework
     $ cd Saydog-framework
     $ chmod +x install.sh
