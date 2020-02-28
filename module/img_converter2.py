@@ -39,6 +39,8 @@ def default_main():
 			dm = input(w+'saydog('+r+'img2ascii/invert'+w+') > '+w)
 			if dm == 'help':
 				dhelp()
+			elif dm == 'back':
+				sys.exit(0)
 			elif dm == 'clear':
 				os.system('clear')
 			elif 'exit' in dm:
