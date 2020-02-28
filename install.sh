@@ -8,12 +8,6 @@
 ########################################################
 ########################################################
 
-g="\033[32m"
-b="\033[36m"
-r="\033[31m"
-y="\033[33m"
-w="\033[00m"
-
 # Just animation
 cat << EOF
 EOF
@@ -37,41 +31,41 @@ spin(){
   do
     for i in ${spinner[@]};
     do
-      echo -ne "\r[ $i ]$w saydog framework version 1.2";
+      echo -ne "\r[ $i ] saydog framework version 1.2";
       sleep 0.1;
     done;
   done
 }
 
 count
-echo $g"[*] Preparing for installing perl ..."
-echo $w"    If u find (y/n) please choose Y or yes"
-echo $w"    If u find What approach do you want? local::lib, please type 'manual' and enter"
+echo "[*] Preparing for installing perl ..."
+echo "    If u find (y/n) please choose Y or yes"
+echo "    If u find What approach do you want? local::lib, please type 'manual' and enter"
 echo ""
 sleep 2
-echo $g"[*] Installing perl ..."
-echo $w"    Please wait in 10-15 minutes ..."
+echo "[*] Installing perl ..."
+echo "    Please wait in 10-15 minutes ..."
 echo ""
 pkg install -y perl;pkg install -y clang;pkg install -y make;pkg install -y openssl;pkg install openssl-tool;cpan install Net::SSLeay::Handle;cpan LWP::UserAgent
 echo ""
-echo $g"[*] Preparing for installing other packages ..."
-echo $w"    Php, python, python2, ruby, nodejs, jp2a"
-echo $w"    figlet, toilet, gnupg, zip, unzip,  wget"
+echo "[*] Preparing for installing other packages ..."
+echo "    Php, python, python2, ruby, nodejs, jp2a"
+echo "    figlet, toilet, gnupg, zip, unzip,  wget"
 echo ""
 pkg install -y php python python2 ruby nodejs;pkg install -y jp2a figlet toilet gnupg zip unzip wget
 echo ""
-echo $g"[*] Preparing for installing python requirements ..."
-echo $w"    requests, bs4, pyfiglet, urllib"
+echo "[*] Preparing for installing python requirements ..."
+echo "    requests, bs4, pyfiglet, urllib"
 echo ""
 pip install requests bs4 pyfiglet urllib;pip2 install requests bs4;pip install --upgrade pip
 echo ""
-echo $g"[*] All dependencies have been installed"
-echo $g"[*] configure console calls"
-echo $w"    Please wait"
+echo "[*] All dependencies have been installed"
+echo "[*] configure console calls"
+echo "    Please wait"
 echo ""
 chmod +x run saydog;mv saydog /data/data/com.termux/files/usr/bin;rm install.sh
-echo $g"[*] Saydog framework have been installed !"
-echo $w"    thankyou for installing saydog framework version 1.2"
-echo $w"    if u have any question, and if u find the bug in this tool"
-echo $w"    plese contact to me saydog.official@gmail.com"
+echo "[*] Saydog framework have been installed !"
+echo "    thankyou for installing saydog framework version 1.2"
+echo "    if u have any question, and if u find the bug in this tool"
+echo "    plese contact to me saydog.official@gmail.com"
 echo "    Start saydog framework with command: ./run  or saydog"
