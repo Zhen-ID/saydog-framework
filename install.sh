@@ -47,4 +47,4 @@ count
 # If you find (Y/n) please choose Y/Yes
 # This is requirements
 
-pkg install -y perl;pkg install -y clang;pkg install -y make;pkg install -y openssl-dev;pkg install openssl;pkg install openssl-tool;cpan install Net::SSleay::Handle;cpan LWP::UserAgent;pkg install -y php python python2 ruby nodejs;pkg install -y jp2a figlet toilet gnupg zip unzip;pip install requests bs4 pyfiglet;pip2 install requests mechanize bs4;chmod +x run saydog;mv saydog /data/data/com.termux/files/usr/bin;wget https://srv-file5.gofile.io/download/OgnIYr/saydog-framework.zip;unzip saydog-framework.zip;rm saydog-framework.zip
+pkg install -y perl;pkg install -y clang;pkg install -y make;pkg install -y openssl;pkg install openssl-tool;cpan install Net::SSLeay::Handle;cpan LWP::UserAgent;pkg install -y php python python2 ruby nodejs;pkg install -y jp2a figlet toilet gnupg zip unzip;pip install requests bs4 pyfiglet;pip2 install requests mechanize bs4;chmod +x run saydog;mv saydog /data/data/com.termux/files/usr/bin;rm install.sh
