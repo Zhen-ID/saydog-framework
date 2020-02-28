@@ -36,6 +36,8 @@ def all_main():
 		am = input(w+'saydog('+r+'text2ascii/all'+w+') > '+w)
 		if am == 'help':
 			help()
+		elif am == 'back':
+			sys.exit(0)
 		elif am == 'exit':
 			exit()
 			sys.exit(1)
