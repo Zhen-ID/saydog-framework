@@ -2,7 +2,7 @@
 SAYDOG FRAMEWORK
 </H1>
 <H4 align="center">
-Just a tool for exploiting social media, website penetration testing, also has a wordlist generator, malware generator and others
+Just a tool for exploiting social media, website vuln scanner, also has a wordlist generator, malware generator and others
 </H4>
 <p align="center">
 <a href="https://github.com/saydog"><img alt="Version" src="https://img.shields.io/badge/Version-1.2-brightgreen"/></a>
