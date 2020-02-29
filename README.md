@@ -16,6 +16,9 @@ Just a tool for exploiting social media, website vuln scanner, also has a wordli
 <p align="center">
 Coded by <a href="https://instagram.com/iqbalmh18">Iqbalmh18</a>
 </p>
+<p align="center">
+Full tutorial <a href="https://youtu.be/2FXpN9bn88g">click here</a>
+</p>
 
 <p align="center">
   <img src="images/banner.jpg" width="640" title="banner" alt="banner">
