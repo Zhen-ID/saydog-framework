@@ -41,13 +41,8 @@ count
 echo "\n"
 echo "[*] Preparing for installing perl ..."
 echo "    If u find (y/n) please choose Y or yes"
-echo "    If u find What approach do you want? local::lib, please type 'manual' and enter"
 echo ""
 sleep 2
-echo "[*] Installing perl ..."
-echo "    Please wait in 10-15 minutes ..."
-echo ""
-pkg install -y perl;pkg install -y clang;pkg install -y make;pkg install -y openssl;pkg install openssl-tool;cpan install Net::SSLeay::Handle;cpan LWP::UserAgent
 echo ""
 echo "[*] Preparing for installing other packages ..."
 echo "    Php, python, python2, ruby, nodejs, jp2a"
