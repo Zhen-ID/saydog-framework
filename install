@@ -39,7 +39,7 @@ spin(){
 
 count
 echo "\n"
-echo "[*] Preparing for installing perl ..."
+echo "[*] Preparing for installing ..."
 echo "    If u find (y/n) please choose Y or yes"
 echo ""
 sleep 2
